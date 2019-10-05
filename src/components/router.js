@@ -8,8 +8,8 @@ import MainLayout from './main-layout';
 <switch>
   <route exact path='/' component={Home}/>
 </switch>
-//
-import Home from './home';
+
+/import Home from './home';
 import Resume from './resume';
 import Portfolio from './portfolio';
 import News from './news';
