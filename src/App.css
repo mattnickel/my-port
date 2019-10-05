@@ -1,22 +1,35 @@
 .App {
   text-align: center;
+  background-color: #212530;
+}
+.hero-img {
+  width: 100%;
+  background-size: cover;
+  background-position: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+.header {
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+.Topnav {
+  margin: auto;
+  width: 100%;
+  max-width: 80rem;
+  padding-left: 1em;
+  padding-right: 1em;
+  line-height: 1;
+  vertical-align: middle;
+}
+.Topnav-list{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+}
+.Topnav-list-item{
+  display: flex;
+}
 .App-link {
   color: #09d3ac;
 }
