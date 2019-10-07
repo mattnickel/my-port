@@ -20,19 +20,16 @@ export default (
           <nav className="Topnav">
             <ul className="Topnav-list">
               <li className= "Topnav-list-item"><Link to="/" className="active">Home</Link></li>
-              <li className= "Topnav-list-item"><Link to="/Resume" activeClassName="active">Resume</Link></li>
-              <li className= "Topnav-list-item"><Link to="/Portfolio" activeClassName="active">Portfolio</Link></li>
-              <li className= "Topnav-list-item"><Link to="/News" activeClassName="active">News</Link></li>
+              <li className= "Topnav-list-item"><Link to="/Resume" activeclassname="active">Resume</Link></li>
+              <li className= "Topnav-list-item"><Link to="/Portfolio" activeclassname="active">Portfolio</Link></li>
+              <li className= "Topnav-list-item"><Link to="/News" activeclassname="active">News</Link></li>
             </ul>
           </nav>
         </header>
-
-      <route component= {MainLayout}>
         <Route exact path="/" component={Home} />
         <Route exact path="/resume" component={Resume} />
         <Route exact path="/portfolio" component={Portfolio} />
         <Route exact path="/news" component={News} />
-      </route>
     </Router>
   </main>
 );

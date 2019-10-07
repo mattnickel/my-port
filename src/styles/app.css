@@ -10,7 +10,12 @@
 section.hero-message {
   margin-bottom: 15%;
 }
-
+.about-message {
+  display: inline-block;
+  width: 50%;
+  vertical-align: top;
+  margin:20px;
+}
 .header {
   font-size: calc(12px + 1vmin);
   color: white;
@@ -22,7 +27,7 @@ section.hero-message {
 .hero-message{
   display: block;
   margin:auto;
-  margin-top: 25%;
+  margin-top: 15%;
   text-transform: capitalize;
   text-align:center;
   font-weight: bold;
@@ -51,4 +56,11 @@ section.hero-message {
 }
 .App-link {
   color: #09d3ac;
+}
+.underline {
+  text-decoration: underline;
+  font-weight: bold;
+}
+.underline:hover{
+  color: blue;
 }
