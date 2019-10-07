@@ -4,8 +4,11 @@
 }
 .background{
   background-image: url(https://images.unsplash.com/photo-1487621167305-5d248087c724?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2089&q=80);
-  height: 800px;
+  height: 1200px;
   width: 100%;
+}
+section.hero-message {
+  margin-bottom: 15%;
 }
 
 .header {
@@ -26,10 +29,14 @@
   color: #ffffff;
 }
 .Topnav {
-  margin-left: 50%;
+  display:inline-block;
+  margin-left: 30%;
   width: 40%;
-  line-height: 4;
-  vertical-align: middle;
+  line-height: 5;
+  vertical-align: top;
+}
+.Topnav-logo{
+  padding:35px 50px;
 }
 .Topnav-list{
   display: flex;
@@ -39,6 +46,8 @@
 }
 .Topnav-list-item{
   display: flex;
+  text-decoration: none;
+  color: #ffffff;
 }
 .App-link {
   color: #09d3ac;
