@@ -2,29 +2,39 @@
   text-align: center;
   background-color: #212530;
 }
-.hero-img {
+.background{
+  background-image: url(https://images.unsplash.com/photo-1487621167305-5d248087c724?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2089&q=80);
+  height: 800px;
   width: 100%;
-  background-size: cover;
-  background-position: 100%;
 }
 
 .header {
-  font-size: calc(10px + 2vmin);
+  font-size: calc(12px + 1vmin);
   color: white;
 }
+.home-hero{
+  height: 350px;
+  display:flex;
+}
+.hero-message{
+  display: block;
+  margin:auto;
+  margin-top: 25%;
+  text-transform: capitalize;
+  text-align:center;
+  font-weight: bold;
+  color: #ffffff;
+}
 .Topnav {
-  margin: auto;
-  width: 100%;
-  max-width: 80rem;
-  padding-left: 1em;
-  padding-right: 1em;
-  line-height: 1;
+  margin-left: 50%;
+  width: 40%;
+  line-height: 4;
   vertical-align: middle;
 }
 .Topnav-list{
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: right;
   margin: 0;
 }
 .Topnav-list-item{
