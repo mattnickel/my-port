@@ -1,19 +1,16 @@
 import React from 'react';
-import * as userApi from '../../api/user-api';
+import { TwitterTimelineEmbed } from 'react-twitter-embed';
 
 export default class News extends React.Component {
   render(){
-
     return (
       <div className="container">
-        <section className="hero-message">
-          <h1 className="hero-message">
-            News is here.
-          </h1>
-
-        </section>
-        <section>
-
+        <section className={["six", "columns"].join(' ')}>
+          <TwitterTimelineEmbed
+            sourceType="profile"
+            screenName="mattnickel"
+            options={{height: 800}}
+          />
         </section>
 
       </div>
