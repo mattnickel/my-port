@@ -10,26 +10,22 @@ import Home from './components/home';
 import Resume from './components/resume';
 import Portfolio from './components/portfolio';
 import News from './components/news';
-
+import Burger from './components/burger';
 
 export default (
-  <main className="background">
-    <Router>
-       <header className="header">
-          <img className="Topnav-logo" src={Logo} />
-          <nav className="Topnav">
-            <ul className="Topnav-list">
-              <li className= "Topnav-list-item"><Link to="/" className="active">Home</Link></li>
-              <li className= "Topnav-list-item"><Link to="/Resume" activeclassname="active">Resume</Link></li>
-              <li className= "Topnav-list-item"><Link to="/Portfolio" activeclassname="active">Portfolio</Link></li>
-              <li className= "Topnav-list-item"><Link to="/News" activeclassname="active">News</Link></li>
-            </ul>
-          </nav>
+  <div id="outer-container">
+    <Burger />
+    <main className="background" id="page-wrap">
+      <Router>
+        <header className="header">
+            <img className="Topnav-logo" src={Logo} />
         </header>
-        <Route exact path="/" component={Home} />
-        <Route exact path="/resume" component={Resume} />
-        <Route exact path="/portfolio" component={Portfolio} />
-        <Route exact path="/news" component={News} />
-    </Router>
-  </main>
+
+          <Route exact path="/" component={Home} />
+          <Route exact path="/resume" component={Resume} />
+          <Route exact path="/portfolio" component={Portfolio} />
+          <Route exact path="/news" component={News} />
+      </Router>
+    </main>
+  </div>
 );

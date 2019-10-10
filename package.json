@@ -5,6 +5,7 @@
   "dependencies": {
     "@version/react-router-v3": "^1.0.0",
     "react": "^16.10.2",
+    "react-burger-menu": "^2.6.11",
     "react-dom": "^16.10.2",
     "react-mailto": "^0.4.0",
     "react-protected-mailto": "^1.0.3",
