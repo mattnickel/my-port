@@ -1,22 +1,16 @@
 import React from 'react';
+import Logo from '../assets/mattlogow.png';
+import Burger from './burger';
 
 
-class Example extends React.Component {
-  showSettings (event) {
-    event.preventDefault();
-
-  }
-
-  render () {
-    // NOTE: You also need to provide styles, see https://github.com/negomi/react-burger-menu#styling
+export default class Header extends React.Component {
+  render(){
     return (
-      <div>
-        <a id="home" className="menu-item" href="/">Home</a>
-        <a id="about" className="menu-item" href="/about">About</a>
-        <a id="contact" className="menu-item" href="/contact">Contact</a>
-        <a onClick={ this.showSettings } className="menu-item--small" href="">Settings</a>
-      </div>
+      <header className="header">
+          <img className="Topnav-logo" src={Logo} />
+      </header>
+
     );
   }
 }
-export default Example;
+

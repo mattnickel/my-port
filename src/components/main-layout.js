@@ -1,11 +1,14 @@
 import React from 'react';
-//import { Link } from 'react-router';
+import Header from './header';
+import Burger from './burger';
 
 export default class MainLayout extends React.Component {
   render(){
     return (
-      <div className="main-layout">
-          {this.props.children}
+      <div className="background">
+        <Burger />
+        <Header />
+        {this.props.children}
       </div>
     );
   }

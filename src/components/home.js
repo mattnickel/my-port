@@ -1,8 +1,7 @@
 import React from 'react';
 import Mailto from 'react-protected-mailto';
 import Hex from '../assets/profile-hex.png';
-import Layout from './main-layout';
-import Burger from './burger';
+
 
 export default class Home extends React.Component {
   render(){
