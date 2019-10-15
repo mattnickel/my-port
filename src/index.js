@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 
 
 import Router from './router';
-import App from './app';
+import App from './App';
 
 import './styles/index.css';
 import './styles/app.css';

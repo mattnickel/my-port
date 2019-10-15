@@ -6,8 +6,8 @@
   background-color: #212530;
 }
 .background-img{
-  background-image: url(https://images.unsplash.com/photo-1487621167305-5d248087c724?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2089&q=80);
-  height: 1200px;
+  background: url(https://images.unsplash.com/photo-1487621167305-5d248087c724?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2089&q=80) top center no-repeat;
+  height: auto;
   width: 100%;
 }
 section.hero-message {
