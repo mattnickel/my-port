@@ -51,7 +51,7 @@ export default class Portfolio extends React.Component {
           <p>Flowcharts</p>
         </div>
         <div className={["three", "columns", "port-square"].join(' ')}>
-          <img src={Bot} className={["twelve", "columns, fit"].join(' ')} />
+          <img src={Bot} className={["twelve", "columns"].join(' ')} />
           <p>SnapBot</p>
         </div>
       </div>

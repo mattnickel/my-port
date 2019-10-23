@@ -14,7 +14,7 @@ export default (
   <Router history={browserHistory}>
     <Route path="/" component={MainLayout}>
       <IndexRoute component={Home}/>
-       <Route exact path="home" component={Home} />
+      <Route exact path="home" component={Home} />
       <Route exact path="resume" component={Resume} />
       <Route exact path="portfolio" component={Portfolio} />
       <Route exact path="news" component={News} />
