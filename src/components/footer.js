@@ -21,7 +21,7 @@ export default class Header extends React.Component {
             <img className="social" src={Linkedin} />
           </a>
         </div>
-        <p> &copy; 2019 Matt Nickel Studios, Seattle, WA </p>
+        <p> &copy; 2019 Matt Nickel Creative Studio, Seattle, WA </p>
       </footer>
     );
   }

@@ -16,43 +16,40 @@ export default class Portfolio extends React.Component {
       <div className="container flex-container">
         <div className={["three", "columns", "port-square"].join(' ')}>
           <img src={Lander} className={["twelve", "columns"].join(' ')} />
-          <p>Dynamic Landing Page</p>
+          <p className={["twelve", "columns", "port-square-title"].join(' ')} >Dynamic Landing Page</p>
         </div>
         <div className={["three", "columns", "port-square"].join(' ')}>
           <img src={Devices} className={["twelve", "columns"].join(' ')} />
-          <p>Responsive Web Design</p>
+          <p className={["twelve", "columns", "port-square-title"].join(' ')} >Responsive Web Design</p>
         </div>
         <div className={["three", "columns", "port-square"].join(' ')}>
           <img src={Dashboard} className={["twelve", "columns"].join(' ')} />
-          <p>Sales Dashboard</p>
+          <p className={["twelve", "columns", "port-square-title"].join(' ')} >Sales Dashboard</p>
         </div>
         <div className={["three", "columns", "port-square"].join(' ')}>
         <img src={Warehouse} className={["twelve", "columns"].join(' ')} />
-          <p>Warehouse Inventory</p>
+          <p className={["twelve", "columns", "port-square-title"].join(' ')} >Warehouse Inventory</p>
         </div>
         <div className={["three", "columns", "port-square"].join(' ')}>
           <img src={App4} className={["twelve", "columns"].join(' ')} />
-          <p>Mobile App</p>
+          <p className={["twelve", "columns", "port-square-title"].join(' ')} >Mobile App</p>
         </div>
-        <div className={["three", "columns", "port-square"].join(' ')}>
-          <img src={Mobile} className={["twelve", "columns"].join(' ')} />
-          <p>Responsive Web Design</p>
-        </div>
+
         <div className={["three", "columns", "port-square"].join(' ')}>
           <img src={Email} className={["twelve", "columns"].join(' ')} />
-          <p>Email Design</p>
+          <p className={["twelve", "columns", "port-square-title"].join(' ')} >Email Design</p>
         </div>
         <div className={["three", "columns", "port-square"].join(' ')}>
           <img src={OTK} className={["twelve", "columns"].join(' ')} />
-          <p>Instructional Design</p>
+          <p className={["twelve", "columns", "port-square-title"].join(' ')} >Instructional Design</p>
         </div>
         <div className={["three", "columns", "port-square"].join(' ')}>
           <img src={MOD} className={["twelve", "columns"].join(' ')} />
-          <p>Flowcharts</p>
+          <p className={["twelve", "columns", "port-square-title"].join(' ')} >Flowcharts</p>
         </div>
         <div className={["three", "columns", "port-square"].join(' ')}>
           <img src={Bot} className={["twelve", "columns"].join(' ')} />
-          <p>SnapBot</p>
+          <p className={["twelve", "columns", "port-square-title"].join(' ')} >SnapBot</p>
         </div>
       </div>
     );
