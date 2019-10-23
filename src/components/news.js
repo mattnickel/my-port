@@ -4,8 +4,8 @@ import { TwitterTimelineEmbed } from 'react-twitter-embed';
 export default class News extends React.Component {
   render(){
     return (
-      <div className="container">
-        <section className={["six", "columns"].join(' ')}>
+      <div className="container flex-container">
+        <section className={["eight", "columns"].join(' ')}>
           <TwitterTimelineEmbed
             sourceType="profile"
             screenName="mattnickel"
